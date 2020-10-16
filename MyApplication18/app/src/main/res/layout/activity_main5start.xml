@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearl"
+        android:layout_width="500dp"
+        android:layout_height="56dp"
+        android:background="#4682b4"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start to Quit!"
+            android:textSize="30dp"
+            android:fontFamily="serif"
+            />
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/c"
+        app:cardElevation="5dp"
+        android:layout_below="@id/linearl">
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/video"/>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txts"
+        android:fontFamily="serif"
+        android:drawableLeft="@drawable/ic_ac_unit_black_24dp"
+        android:drawablePadding="10dp"
+        android:textColor="#4682b4"
+        android:textSize="30dp"
+        android:text="Set a Quit date "/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtss"
+        android:layout_below="@id/txts"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#000000"
+
+        android:fontFamily="serif"
+        android:textSize="25dp"
+        android:text="Start now and stay motivated"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtss"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtt"
+        android:fontFamily="serif"
+        android:drawableLeft="@drawable/ic_ac_unit_black_24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#4682b4"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:text="Interact with your loved one's"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtt"
+        android:id="@+id/txttt"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#000000"
+        android:fontFamily="serif"
+        android:textSize="25dp"
+        android:text="Surround youself with loved ones"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttt"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtr"
+        android:fontFamily="serif"
+        android:drawableLeft="@drawable/ic_ac_unit_black_24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#4682b4"
+        android:textSize="30dp"
+        android:text="Stay Positive"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtr"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#000000"
+        android:id="@+id/txtrr"
+        android:fontFamily="serif"
+        android:textSize="25dp"
+        android:text="Positive wibe ! Positive life ! Positive life !"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtrr"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtp"
+        android:fontFamily="serif"
+        android:drawableLeft="@drawable/ic_ac_unit_black_24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#4682b4"
+        android:textSize="30dp"
+        android:text="Recall"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#000000"
+        android:fontFamily="serif"
+        android:textSize="25dp"
+        android:text="Remeber why you started it!"/>
+
+
+</RelativeLayout>
+</ScrollView>

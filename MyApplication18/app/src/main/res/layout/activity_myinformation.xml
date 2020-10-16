@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearl"
+        android:layout_width="500dp"
+        android:layout_height="56dp"
+        android:background="#4682b4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="My information"
+            android:textSize="30sp"
+
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearl"
+        android:text="Age you stopped or will stop smoking?"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:layout_centerInParent="true"
+        android:id="@+id/txtday"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtday"
+        android:inputType="number"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/txtday"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtday"
+        android:text="Age you started smoking?"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:id="@+id/txtsdays"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtsday"
+        android:inputType="number"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/txtsdays"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtsday"
+        android:text="How many cigarettes per day?"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:id="@+id/txtcigday"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtcigday"
+        android:inputType="number"
+        android:layout_below="@id/txtcigday" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtcigday"
+        android:text="Average cost "
+        android:layout_marginLeft="25dp"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:id="@+id/txtcost"
+        android:layout_marginTop="20dp"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtcigday"
+        android:text="per packet?"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:id="@+id/txtcost2"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/txtcost"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtcigday"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/txtcost"
+        android:layout_marginLeft="5dp"
+        android:text="@string/Rs"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/edtcost"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtcost" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtcost"
+        android:text="How many cigarettes had your cigerettes pack?"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:id="@+id/txtyear"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtpackno"
+        android:inputType="number"
+        android:layout_below="@id/txtyear" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:layout_below="@id/edtpackno"
+        android:layout_centerInParent="true"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:onClick="infosubmit"
+        android:textAllCaps="false"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:layout_marginTop="20sp"/>
+
+
+
+</RelativeLayout>
+</ScrollView>

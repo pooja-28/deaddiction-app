@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/relative11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearl"
+            android:layout_width="500dp"
+            android:layout_height="56dp"
+            android:background="#4682b4"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/linearl"
+            android:layout_marginTop="20dp"
+            app:cardElevation="40dp"
+            app:cardCornerRadius="20dp"
+            android:id="@+id/start"
+            android:layout_centerHorizontal="true"
+            android:background="#4682b4">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:background="#4682b4"
+                    android:fontFamily="serif"
+                    android:onClick="startbtn"
+                    android:textColor="#ffffff"
+                    android:text="Start to quit"
+                    android:textAllCaps="false"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/start"
+            android:layout_marginTop="20dp"
+            app:cardElevation="40dp"
+            app:cardCornerRadius="20dp"
+            android:id="@+id/craving"
+            android:layout_centerHorizontal="true"
+            android:background="#E1F5FE">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:background="#4682b4"
+                    android:textColor="#ffffff"
+                    android:fontFamily="serif"
+                    android:onClick="cravingbtn"
+                    android:text="Craving"
+                    android:textAllCaps="false"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/craving"
+            android:layout_marginTop="20dp"
+            app:cardElevation="40dp"
+            app:cardCornerRadius="20dp"
+            android:id="@+id/health"
+            android:layout_centerHorizontal="true"
+            android:background="#E1F5FE">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:background="#4682b4"
+                    android:textColor="#ffffff"
+                    android:fontFamily="serif"
+                    android:onClick="healthbtn"
+                    android:text="Health Status"
+                    android:textAllCaps="false"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

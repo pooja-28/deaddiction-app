@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "691352588260",
+    "firebase_url": "https://quitnow-82261.firebaseio.com",
+    "project_id": "quitnow-82261",
+    "storage_bucket": "quitnow-82261.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691352588260:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691352588260-q39j3c7j4j63b4de6l00sk29lq7eou32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "7a319cfde419cd70b42a9ee1ead8f9320d214de6"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCccft53f9qsBLg9_l99YPkZIeadmQKrGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691352588260-mdilfnpn025adv4aqvc7n44srsp9h2l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

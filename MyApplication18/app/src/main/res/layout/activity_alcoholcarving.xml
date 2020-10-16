@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/relative11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearl"
+            android:layout_width="500dp"
+            android:layout_height="56dp"
+            android:background="#4682b4"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cravings"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:fontFamily="serif"
+                />
+        </LinearLayout>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:id="@+id/c"
+            app:cardElevation="5dp"
+            android:layout_below="@id/linearl">
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="315dp"
+                android:layout_below="@id/linearl"
+                android:id="@+id/video"/>
+        </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt1"
+            android:fontFamily="serif"
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/ic_ac_unit_black_24dp"
+            android:drawablePadding="15dp"
+            android:textColor="#4682b4"
+            android:textSize="30dp"
+            android:text="Eat food with high vitamin B"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt1"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt2"
+            android:fontFamily="serif"
+            android:drawableLeft="@drawable/ic_ac_unit_black_24dp"
+            android:drawablePadding="15dp"
+            android:textColor="#4682b4"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:text="Take a mental vacation"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt2"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt3"
+            android:fontFamily="serif"
+            android:drawableLeft="@drawable/ic_ac_unit_black_24dp"
+            android:drawablePadding="15dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#4682b4"
+            android:textSize="30dp"
+            android:text="Drink a tall glass of water"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt3"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt4"
+            android:fontFamily="serif"
+            android:drawableLeft="@drawable/ic_ac_unit_black_24dp"
+            android:drawablePadding="15dp"
+            android:textColor="#4682b4"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:text="List your reason for quiting"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt4"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt5"
+            android:fontFamily="serif"
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/ic_ac_unit_black_24dp"
+            android:drawablePadding="15dp"
+            android:textColor="#4682b4"
+            android:textSize="30dp"
+            android:text="Seek help"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt5"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt6"
+            android:fontFamily="serif"
+            android:drawableLeft="@drawable/ic_ac_unit_black_24dp"
+            android:layout_marginLeft="5dp"
+            android:drawablePadding="15dp"
+            android:textColor="#4682b4"
+            android:textSize="30dp"
+            android:text="Eat a healthy snack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt6"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt7"
+            android:fontFamily="serif"
+            android:drawableLeft="@drawable/ic_ac_unit_black_24dp"
+            android:layout_marginLeft="5dp"
+            android:drawablePadding="15dp"
+            android:textColor="#4682b4"
+            android:textSize="30dp"
+            android:text="Have a portable hobby"/>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

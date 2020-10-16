@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearl"
+        android:layout_width="500dp"
+        android:layout_height="56dp"
+        android:background="#4682b4"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration form"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#4682b4"
+        android:fontFamily="serif"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/linearl"
+        android:id="@+id/txt"/>
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/edt1"
+        android:inputType="text"
+        android:hint="Enter a user name"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txt"
+        android:textColorHint="#000000"/>
+
+
+
+    <EditText
+        android:id="@+id/edt2"
+        android:hint="Enter a password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#000000"
+        android:layout_marginTop="20dp"
+        android:digits="0123456789asdfghjklzxcvbnmqwertyuiop"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/edt4" />
+
+
+
+    <EditText
+        android:id="@+id/edt3"
+        android:hint="Confirm your password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:drawablePadding="20dp"
+        android:layout_alignParentRight="true"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:digits="0123456789asdfghjklzxcvbnmqwertyuiop"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#000000"
+        android:layout_below="@id/edt2" />
+
+
+    <EditText
+        android:id="@+id/edt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt1"
+        android:autoSizeTextType="uniform"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your email "
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/btn"
+        android:fontFamily="serif"
+        android:onClick="submitbtn"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/btn"
+        android:fontFamily="serif"
+        android:onClick="reset"
+        android:text="Reset"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+

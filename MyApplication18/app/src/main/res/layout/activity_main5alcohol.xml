@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:background="#4682b4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Track record"
+            android:id="@+id/title"
+            android:textSize="40sp"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="serif"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txthour"
+            android:text="Hours"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            android:textSize="40dp"
+            android:layout_below="@id/title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/txthours"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/txthour"
+            android:textSize="50sp"
+            android:textColor="#000000"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="without drinking !!"
+            android:id="@+id/tx"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/txthours"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:fontFamily="serif"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl2"
+        android:text="Money saved"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:id="@+id/txtmoney"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl2"
+        android:layout_toRightOf="@id/txtmoney"
+        android:id="@+id/tmoney"
+        android:layout_marginLeft="100dp"
+        android:text="0"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@id/txtmoney"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtmoney"
+        android:text="Days without drink"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:id="@+id/txtday"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tmoney"
+        android:layout_toRightOf="@id/txtday"
+        android:layout_marginLeft="50dp"
+        android:text="0"
+        android:id="@+id/tday"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@id/txtday"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtday"
+        android:text="Drinks avoided"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:id="@+id/txtavoid"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtday"
+        android:layout_toRightOf="@id/txtavoid"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/tav"
+       android:text="0"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@id/txtavoid"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtavoid"
+        android:text="Calories saved"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:id="@+id/txtcalories"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtavoid"
+        android:layout_toRightOf="@id/txtcalories"
+        android:layout_marginLeft="80dp"
+        android:text="0"
+        android:textSize="20sp"
+        android:id="@+id/tcalories"
+        android:layout_alignBaseline="@id/txtcalories"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtcalories"
+        android:text="Life Lost"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:id="@+id/txtlife"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tcalories"
+        android:layout_toRightOf="@id/txtlife"
+        android:layout_marginLeft="40dp"
+        android:text="0"
+        android:textSize="20sp"
+        android:id="@+id/tlife"
+        android:layout_alignBaseline="@id/txtlife"/>
+
+
+
+</RelativeLayout>
+</ScrollView>

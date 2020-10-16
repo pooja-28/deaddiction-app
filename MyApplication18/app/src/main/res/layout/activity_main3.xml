@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/linearl"
+        android:layout_width="500dp"
+        android:layout_height="56dp"
+        android:background="#4682b4"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearl"
+        android:layout_marginTop="10dp"
+        app:cardElevation="40dp"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/smoking"
+        android:layout_centerInParent="true"
+        android:background="#4682b4"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/smokingbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/smoking"
+                android:fontFamily="serif"
+                android:onClick="smokingbtn"
+                android:background="#4682b4"
+                android:textColor="#ffff"
+                android:text="Smoking"
+                android:textAllCaps="false"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smoking"
+        android:layout_marginTop="80dp"
+        app:cardElevation="40dp"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/alcohol"
+        android:layout_centerInParent="true"
+        android:background="#E1F5FE">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableTop="@drawable/drinking"
+                android:fontFamily="serif"
+                android:onClick="alcoholbtn"
+                android:background="#4682b4"
+                android:textColor="#ffffff"
+                android:text="Alcohol"
+                android:textAllCaps="false"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
